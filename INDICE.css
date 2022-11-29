@@ -1,0 +1,41 @@
+/*
+ Indice de trabajos diarios
+*/
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+ 
+body{
+   background-image: url(./imagenes/fondo-textura-marmol-blanco_38679-514.webp);
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+ }
+
+section{
+   margin: auto;
+   padding: 25px;
+   width: 50%;
+   text-align: center;
+   font-size: 38px;
+}
+
+h1{
+   text-shadow: 5px 1px 4px rgb(0, 0, 0);
+}
+.Titulo{
+   text-align: center;
+   padding: 50px;
+   font-family:monospace;
+   font-size: 50px;
+   background-color: rgba(90, 81, 81, 0.767);
+   color: white ;
+}
+a{
+   text-decoration: none;
+}
+.texto{
+   color: rgb(105, 85, 85);
+}
