@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+header,footer{
+    background-image: linear-gradient(to bottom,rgb(238, 87, 187),white);
+    padding: 50px;
+    border: 2px solid black;
+    text-align: center;
+}
+body{
+    height: 2000px;
+}
+footer{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+section{
+    width: 33%;
+    float: left;
+    background-image:linear-gradient(to bottom,rgb(238, 87, 187),white);
+    
+    
+}
+
+h2{
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+}

@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+    
+
+}
+
+h1{
+    text-align: center;
+}
+
+section{
+    width: 70%;
+    margin: auto;
+    border: dashed;
+    padding: 15px;
+}
+.listaDesordenada{
+    background-color: rgb(245, 140, 158);
+}
+
+
+ol ol{
+    list-style-type:circle;
+}
+
+.listaOrdenada{
+    background-color: cornflowerblue;
+}
+
+.listaDefinicion{
+    background-color: rgb(117, 223, 117);
+}
+
+ul li{
+    list-style-type: none;
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-position-x: -5px;
+    padding: 0px 0px 0px 25px;
+}
+
+.ram{
+    background-image: url(./imagenes/ram.jpg);
+}
+.cpu{
+    background-image: url(./imagenes/cpu2.jpg);
+}
+.dispositivo{
+    background-image: url(./imagenes/dipo.jpg);
+}
+.ventilador{
+    background-image: url(./imagenes/ordenador.jpg);
+}
+.placamadre{
+    background-image: url(./imagenes/palca\ madre.jpg);
+}
+.pantalla{
+    background-image: url(./imagenes/pantalla.jpg);
+}
+.lector{
+    background-image: url(./imagenes/lector.jpg);
+}
+.teclado{
+    background-image: url(./imagenes/teclado.jpg);
+}
+.altavoz{
+    background-image: url(./imagenes/altavoz.jpg);
+}
+.raton{
+    background-image: url(./imagenes/raton.jpg);
+}

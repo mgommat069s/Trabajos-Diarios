@@ -1,0 +1,47 @@
+/* 
+  Práctica diaria 10
+  María Gómez Mateo
+  Noviembre 2022
+*/
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+header,footer{
+    background-color: rgb(234, 112, 250);
+    color: rgb(0, 0, 0);
+    padding: 25px;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+}
+img{
+    width: 50px;
+    box-shadow: 5px 5px 5px rgb(234, 0, 255);
+}
+h1{
+    text-shadow: 5px 5px 5px rgb(0, 0, 0);
+}
+section{
+    box-shadow: 5px -5px 2px rgb(255, 0, 200);
+    margin: 20px 10px 20px 10px;
+}
+main{
+    display: flex;
+}
+@font-face {
+    font-family: "castillo";
+    src: url(./fuentes/Castillo.otf);
+ }
+ p{
+    font-family:"castillo";
+    font-size: 50px;
+ }
+
+ .fuente{
+    font-family: "castillo";
+    src: url(./fuentes/Castillo.otf);
+    font-size: 50px;
+    
+ }

@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+body{
+    background-color: lightcoral;
+
+}
+.header{
+    background-color: white;
+    border-style: solid;
+    border-radius: 20px;
+    padding: 5px;
+    text-align: center;
+}
+
+.grid{
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-gap: 10px;
+}
+.grid img{
+    width: 100%;
+    border: 3px solid white;
+    margin: auto;
+}
+.main{
+    height: 1200px;
+}
+.separador1{
+    height: 10px;
+}
+img:hover{
+   transform: scale(0.9);
+   border-radius: 30px;
+}
+img{
+    transition: all 0.5s ease;
+}
